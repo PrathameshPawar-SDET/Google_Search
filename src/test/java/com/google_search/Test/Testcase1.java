@@ -17,13 +17,7 @@ public class Testcase1 extends BaseClass {
         homepage = new HomePage(driver);
         homepage.searchData("Automation Testing");
         Thread.sleep(2000);
-        
-      
-        Assert.assertEquals(driver.getTitle(), "Automation Testing - Google Search");
-
-
-
-    
+        Assert.assertEquals(driver.getTitle(), "Automation Testing - Google Search");    
     }
 
 
