@@ -13,8 +13,6 @@ public class SearchListing {
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, 10), this);
     }
 
-    
 
-    
 
 }
